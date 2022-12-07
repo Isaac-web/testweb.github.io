@@ -76,12 +76,12 @@ h1 span{
 
 
 ::selection {
-  background: #ada074;
+  background: #4CAF50;
   color:white;
 }
 
 ::-moz-selection {
-  background: #ada074;
+  background: #4CAF50;
   color:white;
 }
 
@@ -178,8 +178,8 @@ h1 span{
 
 .start-page .content .text .read-more:hover{
   color:white;
-  background: #ada074;
-  border:1px solid #ada074;
+  background: #4CAF50;
+  border:1px solid #4CAF50;
 }
 
 .start-page .content .arrow-down{
@@ -222,7 +222,7 @@ h1 span{
   position:relative;
   width:100%;
   height:90px;
-  background:#ada074;
+  background:#4CAF50;
   z-index:1000;
   display:none;
 }
@@ -273,7 +273,7 @@ h1 span{
  }
 
 .menu-click li:hover {
-  color:#ada074;
+  color:#4CAF50;
  }
 
 
@@ -332,11 +332,11 @@ h1 span{
 }
 
 .menu-content li.active a{
-  color:#ada074;
+  color:#4CAF50;
 }
 
 .menu-content li a:hover{
-  color:#ada074;
+  color:#4CAF50;
 }
 
 
@@ -395,7 +395,7 @@ h1 span{
   font-size:26px;
   color:black;
   line-height:1.2;
-  letter-spacing:6px;
+  letter-spacing:1px;
   width:100%;
   position:relative;
   font-weight:400;
@@ -426,7 +426,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/responsive.png) white no-repeat center center;
+  background: url(../img/icons/decrease-4.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -440,7 +440,7 @@ h1 span{
 }
 
 .about-us .column-one .circle-one:hover{
-  border:2px solid #ada074;
+  border:2px solid #4CAF50;
 
 }
 
@@ -457,7 +457,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/minimalist.png) white no-repeat center center;
+  background: url(../img/icons/delivery.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -471,7 +471,7 @@ h1 span{
 }
 
 .about-us .column-two .circle-two:hover{
-  border:2px solid #ada074;
+  border:2px solid #4CAF50;
 }
 
 
@@ -488,7 +488,7 @@ h1 span{
   position:relative;
   margin:0 auto;
   border:2px solid #f0f0f0;
-  background: url(../img/icons/free.png) white no-repeat center center;
+  background: url(../img/icons/cooking.png) white no-repeat center center;
   -moz-border-radius:100px;
   -webkit-border-radius:100px;
   border-radius: 100px;
@@ -502,7 +502,37 @@ h1 span{
 }
 
 .about-us .column-three .circle-three:hover{ 
-  border:2px solid #ada074;
+  border:2px solid #4CAF50;
+}
+
+.about-us .column-four{ 
+  margin-top:40px;
+  width:300px;
+ 
+  float:left;
+  margin-bottom:70px;
+  height:350px;
+}
+.about-us .column-four .circle-four{ 
+  height: 100px;
+  position:relative;
+  margin:0 auto;
+  border:2px solid #f0f0f0;
+  background: url(../img/icons/dinner.png) white no-repeat center center;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+  border-radius: 100px;
+  width: 100px;
+  cursor:pointer;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.about-us .column-four .circle-four:hover{ 
+  border:2px solid #4CAF50;
 }
 
 
@@ -547,9 +577,9 @@ h1 span{
 }
 
 .portfolio .portfolio-margin .read-more:hover{
-  background:#ada074;
+  background:#4CAF50;
   color:white;
-  border:1px solid #ada074;
+  border:1px solid #4CAF50;
 }
 
 .portfolio .portfolio-margin h1{
@@ -729,7 +759,7 @@ h1 span{
   background:white;
   z-index:10;
   overflow:hidden;
-  margin-bottom: 300px;  
+  margin-bottom: 100px;  
 }
 
 
@@ -872,7 +902,7 @@ input.submit{
 
 
 .footer{
-  position:fixed;
+ 
   bottom:0;
   width:100%;
   background:#3c3c3c;
@@ -910,7 +940,7 @@ input.submit{
 }
 
 .footer .menu-footer a:hover{
-  color:#ada074;
+  color:#4CAF50;
 }
 
 
