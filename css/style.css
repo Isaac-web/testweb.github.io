@@ -734,6 +734,15 @@ h1 span{
   text-align:center;
 }
 
+.partners h3{
+  color:white;
+  letter-spacing:1px;
+  padding-bottom: 4%;
+  font-size:24px;
+  font-weight:300;
+  text-align:center;
+}
+
 .partners .logo{
   position:relative;
   width:900px;
