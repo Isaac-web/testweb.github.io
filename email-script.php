@@ -1,5 +1,6 @@
 <?php
 if (isset($_POST['sendMailBtn'])) {
+    echo '<script>alert("Email sent successfully !")</script>';
     $fromEmail = $_POST['fromEmail'];
     $toEmail = $_POST['toEmail'];
     $subjectName = $_POST['subject'];
@@ -30,6 +31,5 @@ if (isset($_POST['sendMailBtn'])) {
 			</html>';
     $result = @mail($to, $subject, $message, $headers);
 
-    echo '<script>alert("Email sent successfully !")</script>';
-    echo '<script>window.location.href="index.php";</script>';
+  
 }
