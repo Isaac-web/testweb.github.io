@@ -867,6 +867,11 @@ input.submit{
 	transition: all 0.6s ease-in;
 }
 
+input.submit :hover{
+  cursor:grab;
+  background-color: #2fa68e;
+}
+
 /* Footer */
 
 

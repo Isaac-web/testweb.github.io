@@ -910,6 +910,12 @@ input.submit{
 	-ms-transition: all 0.6s ease-in;
 	-o-transition: all 0.6s ease-in;
 	transition: all 0.6s ease-in;
+  
+}
+
+div.sendmail :hover{
+  cursor:pointer;
+  
 }
 
 /* Footer */
